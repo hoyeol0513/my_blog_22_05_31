@@ -1,14 +1,19 @@
 import React from "react";
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page???</title>
-      <h1>Welcome my Home Page!!!</h1>
+    // <main>
+    //   <title>Home Page???</title>
+    //   <h1>Welcome my Home Page!!!</h1>
+    //   <p>I'm making this by following the Gatsby Tutorial.</p>
+    //   <Link to="/about">about Me</Link>
+    // </main>
+    <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+    </Layout>
   );
 };
 
