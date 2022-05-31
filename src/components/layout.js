@@ -11,6 +11,7 @@ function Layout({ children }) {
           <Link to="/about">소개</Link>
           <Link to="/test">테스트</Link>
           <Link to="/test-space">테스트-스페이스</Link>
+          <Link to="/vision">비전</Link>
         </div>
         {/* 빈칸 (children 쓰는건 외우기)*/}
         {children}
