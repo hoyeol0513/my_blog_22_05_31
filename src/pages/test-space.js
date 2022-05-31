@@ -1,13 +1,12 @@
 import React from "react";
-import Head from "../components/head";
+import Layout from "../components/layout";
 
 function TestspacePage() {
   return (
-    <main>
+    <Layout>
       <title>Test Page</title>
-      <Head />
       <h1>Page for Test-space</h1>
-    </main>
+      </Layout>
   );
 }
 

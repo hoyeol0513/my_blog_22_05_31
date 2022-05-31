@@ -1,13 +1,12 @@
 import React from "react";
-import Head from "../components/head";
+import Layout from "../components/layout";
 
 function TestPage() {
   return (
-    <main>
-      <Head />
+    <Layout>
       <title>Test Page</title>
       <h1>Page for Test</h1>
-    </main>
+      </Layout>
   );
 }
 
