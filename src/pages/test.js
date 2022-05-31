@@ -1,13 +1,10 @@
-import { Link } from "gatsby";
 import React from "react";
+import Head from "../components/head";
 
 function TestPage() {
   return (
     <main>
-      <Link to="/">홈</Link>
-      <Link to="/about">소개</Link>
-      <Link to="/test">테스트</Link>
-      <Link to="/test-space">테스트-스페이스</Link>
+      <Head />
       <title>Test Page</title>
       <h1>Page for Test</h1>
     </main>

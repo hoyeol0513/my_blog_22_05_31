@@ -1,14 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
+import Head from "../components/head";
 
 // markup
 const IndexPage = () => {
   return (
     <main>
-      <Link to="/">홈</Link>
-      <Link to="/about">소개</Link>
-      <Link to="/test">테스트</Link>
-      <Link to="/test-space">테스트-스페이스</Link>
+      <Head />
       <title>Home Page</title>
       <h1>Welcome my Home Page!!!</h1>
     </main>
