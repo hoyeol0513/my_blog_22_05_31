@@ -1,0 +1,21 @@
+.container{
+  /* margin left, right를 auoto 하려고 함. */
+  margin : auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+/* js로 가져갈때는 `-` 을 지우고 소문자를 대문자로  */
+.heading {
+  color: rebeccapurple;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: black;
+}
