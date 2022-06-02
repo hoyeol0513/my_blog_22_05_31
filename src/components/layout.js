@@ -35,12 +35,17 @@ function Layout({ pageTitle, children }) {
           <ul className={navLinks}>
             <li className={navLinkItem}>
               <Link className={navLinkText} to="/">
-                홈
+                Home
               </Link>
             </li>
             <li className={navLinkItem}>
               <Link className={navLinkText} to="/about">
-                소개
+                About
+              </Link>
+            </li>
+            <li className={navLinkItem}>
+              <Link className={navLinkText} to="/blog">
+                Blog
               </Link>
             </li>
           </ul>
