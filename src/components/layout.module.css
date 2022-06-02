@@ -2,7 +2,8 @@
   /* margin left, right를 auoto 하려고 함. */
   margin : auto;
   max-width: 500px;
-  font-family: sans-serif;
+  /* 글로벌 폰트 적용 G마켓을 위해서 기존 폰트 삭제! 
+  font-family: sans-serif; */
 }
 /* js로 가져갈때는 `-` 을 지우고 소문자를 대문자로  */
 .heading {
