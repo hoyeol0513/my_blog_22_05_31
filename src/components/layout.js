@@ -8,6 +8,7 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
+  siteTitle,
 } from "./layout.module.css";
 
 function Layout({ pageTitle, children }) {
@@ -28,7 +29,7 @@ function Layout({ pageTitle, children }) {
         <title>
           {pageTitle} | {data.site.siteMetadata.title}
         </title>
-        <header>{data.site.siteMetadata.title}</header>
+        <header className={siteTitle}>{data.site.siteMetadata.title}</header>
         <div>{data.site.siteMetadata.description}</div>
         {/* 상단 (링크) -> nav로 링크넣는다 = 가독성 좋음*/}
         <nav>
