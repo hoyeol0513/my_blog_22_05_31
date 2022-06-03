@@ -30,7 +30,6 @@ const BlogPost = ({ data }) => {
             Photo Credit:{" "}
             <a
               target="_blank"
-              without
               rel="noreferrer"
               href={data.mdx.frontmatter.hero_image_credit_link}
             >
