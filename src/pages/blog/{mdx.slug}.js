@@ -22,8 +22,10 @@ const BlogPost = ({ data }) => {
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>{data.mdx.frontmatter.date}</p>
+
       {/* 이미지 없는 글에 대한 처리 (위에 &&연산과 동일) */}
       {image && (
+        // 안에서 두개 이상의 태그를 쓰려면 <></> 이 필요함. (한개는 필요없음.)
         <>
           <GatsbyImage
             image={image}
@@ -33,6 +35,8 @@ const BlogPost = ({ data }) => {
             Photo Credit:{" "}
             <a
               target="_blank"
+              without
+              rel="noreferrer"
               href={data.mdx.frontmatter.hero_image_credit_link}
             >
               {data.mdx.frontmatter.hero_image_credit_text}
